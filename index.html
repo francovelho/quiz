@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br" >
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Quiz com Pontuação Simples</title>
+
+  <!-- Google Fonts: Roboto -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="quiz-container">
+
+    <!-- Contador de pontos com moeda -->
+    <div id="coin-counter" title="Pontuação acumulada">
+      <div id="coin-icon" aria-label="Moeda dourada"></div>
+      <span id="coin-count">0</span>
+    </div>
+
+    <h1>Quiz de Conhecimentos Gerais</h1>
+
+    <div class="progress-bar">
+      <div id="progress-fill"></div>
+    </div>
+
+    <div id="quiz">
+      <p id="question">Carregando...</p>
+      <div id="answers"></div>
+    </div>
+
+    <div id="result"></div>
+  </div>
+
+  <!-- Som da pontuação: som clássico de moeda -->
+  <audio id="score-sound" src="midia/sound_score.mp3" preload="auto"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>

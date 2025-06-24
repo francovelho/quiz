@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const questions = [
     {
       question: "Você está pronto(a) para uma verdadeira transformação na sua vida?",
-      answers: ["Sim! Eu sinto que é a hora de virar o jogo.", "Talvez... tenho pensado nisso, mas não sei por onde começar."],
+      answers: ["Sim! Eu sinto que é a hora de virar o jogo.", "Talvez... tenho pensado nisso, mas não sei por onde começar.","Não tenho certeza. Minha vida está boa como está."],
     },
     {
       question: "Quanto é 5 x 3?",

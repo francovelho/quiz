@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
       answers: ["Sim! Eu sinto que é a hora de virar o jogo.", "Talvez... tenho pensado nisso, mas não sei por onde começar.","Não tenho certeza. Minha vida está boa como está."],
     },
     {
-      question: "Quanto é 5 x 3?",
+      question: "Quanto é 5 x R$30?",
       answers: ["15", "8", "10", "5"],
     },
     {

@@ -3,15 +3,19 @@ document.addEventListener("DOMContentLoaded", () => {
   const questions = [
     {
       question: "Você está pronto(a) para uma verdadeira transformação na sua vida?",
-      answers: ["Sim! Eu sinto que é a hora de virar o jogo.", "Talvez... tenho pensado nisso, mas não sei por onde começar.","Não tenho certeza. Minha vida está boa como está."],
+      answers: ["Sim! Eu sinto que é a hora de virar o jogo.", "Talvez. \nTenho pensado nisso, mas não sei por onde começar.","Não tenho certeza. \nMinha vida está boa como está."],
     },
     {
-      question: "Quanto é 5 x 3?",
-      answers: ["15", "8", "10", "5"],
+      question: "Quanto é 5 x R$ 30 ?",
+      answers: ["R$ 150", "R$ 8", "R$ 10", "R$ 55"],
+    },
+    {
+      question: "R$ 150 entrando todos os dia fariam diferença na sua vida ?",
+      answers: ["Sim","Não"],
     },
     {
       question: "Excelente! Para você, qual área da vida mais precisa dessa virada agora?",
-      answers: ["Minhas finanças e liberdade profissional.", "Minha saúde e bem-estar (físico ou mental)."],
+      answers: ["Minhas liberdade financeira.", "Minha saúde e bem-estar (físico ou mental)."],
     },
     {
       question: "Entendo perfeitamente! Muitas pessoas se sentem assim. Se você pudesse mudar APENAS uma coisa na sua vida hoje, qual seria?",

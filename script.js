@@ -10,16 +10,16 @@ document.addEventListener("DOMContentLoaded", () => {
       answers: ["15", "8", "10", "5"],
     },
     {
-      question: "Quem escreveu 'Dom Casmurro'?",
-      answers: ["Machado de Assis", "Clarice Lispector", "Monteiro Lobato", "Carlos Drummond"],
+      question: "Excelente! Para você, qual área da vida mais precisa dessa virada agora?",
+      answers: ["Minhas finanças e liberdade profissional.", "Minha saúde e bem-estar (físico ou mental)."],
     },
     {
-      question: "Qual é a cor do céu em um dia claro?",
-      answers: ["Azul", "Verde", "Vermelho", "Amarelo"],
+      question: "Entendo perfeitamente! Muitas pessoas se sentem assim. Se você pudesse mudar APENAS uma coisa na sua vida hoje, qual seria?",
+      answers: ["Ter mais dinheiro para viver sem preocupações.", "Ter mais tempo livre para o que realmente importa."],
     },
     {
-      question: "Qual é o maior planeta do sistema solar?",
-      answers: ["Terra", "Júpiter", "Saturno", "Marte"],
+      question: "Imagine sua vida daqui a 1 ano, se nada mudar. Como você se sentiria ao olhar para trás e ver que a oportunidade de transformação passou?",
+      answers: ["Mal! Eu estaria frustrado(a) por não ter tentado.", "Indiferente. A vida segue."],
     }
   ];
 

@@ -2,8 +2,8 @@ document.addEventListener("DOMContentLoaded", () => {
   // 5 perguntas
   const questions = [
     {
-      question: "Qual a capital do Brasil?",
-      answers: ["Rio de Janeiro", "Brasília", "São Paulo", "Salvador"],
+      question: "Você está pronto(a) para uma verdadeira transformação na sua vida?",
+      answers: ["Sim! Eu sinto que é a hora de virar o jogo.", "Talvez... tenho pensado nisso, mas não sei por onde começar."],
     },
     {
       question: "Quanto é 5 x 3?",
